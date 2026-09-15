@@ -1,0 +1,30 @@
+return {
+  summary = "Bot complet avec capture Pokédex, stratégie de combat, HUD et sécurités.",
+  author = "Leo",
+  tags = { "gameplay", "automation", "quality-of-life" },
+  differences = {
+    added = {
+      "deplacement automatique d'une case a gauche puis a droite",
+      "activation et pause instantanees avec F6",
+      "deplacement limite aux vraies cases de hautes herbes",
+      "selection automatique de FIGHT et d'une attaque utilisable",
+      "validation automatique des textes, y compris apres la fin du combat",
+      "indicateur BOT ACTIF ou BOT EN PAUSE affiche a l'ecran",
+      "compteur persistant des combats sauvages termines",
+      "pause automatique a 25 pour cent de PV ou moins",
+      "arret automatique avant toute action contre un Pokemon shiny",
+      "capture automatique facultative des especes non possedees",
+      "affaiblissement avec estimation maximale des degats pour eviter le K.O.",
+      "choix des attaques selon degats reels, STAB, types, precision et PP",
+      "choix de Ball configurable et arret si le stock est vide",
+      "vitesse, seuil de PV, touche et bouton de manette configurables",
+      "liste d'especes recherchees provoquant un arret immediat",
+    },
+    known = {
+      "le joueur doit etre place dans les hautes herbes puis appuyer sur F6",
+      "le bot ne soigne pas l'equipe et ne change pas intelligemment de Pokemon apres un K.O.",
+      "les combats de dresseurs, de tutoriel et en liaison sont refuses par l'API du jeu",
+    },
+  },
+  compat = { engine = ">=0.2.60 <2.0.0", modApi = 2 },
+}

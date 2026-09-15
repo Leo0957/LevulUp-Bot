@@ -1,0 +1,17 @@
+{
+  "id": "auto_grass_battler",
+  "name": "Auto Grass Battler",
+  "version": "3.0.2",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GAMEPLAY",
+  "games": ["gen1"],
+  "game_version": ">=0.2.60 <2.0.0",
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "permissions": ["engine_internals"],
+  "description": "Bot autonome : combat, capture, shiny stop, apprentissage intelligent et retour automatique au Centre Pokemon quand les PP sont epuises."
+}
