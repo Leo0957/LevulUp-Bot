@@ -1,4 +1,8 @@
-# Auto Grass Battler
+<p align="center">
+  <img src="assets/logo.png" alt="LevelUp-Bot logo" width="720">
+</p>
+
+# LevelUp-Bot
 
 Bot d'automatisation pour **Gen1Recomp** sur Pokemon Rouge, Bleu et Jaune.
 
