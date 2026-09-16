@@ -145,25 +145,3 @@ auto_grass_battler/
 ├── mod.card
 └── README.md
 ```
-
-## Publication GitHub
-
-Pour publier le mod proprement :
-
-1. Mettre ce dossier dans un depot GitHub.
-2. Garder `manifest.json`, `main.lua`, `mod.card` et `README.md` a la racine du dossier du mod.
-3. Creer une release GitHub.
-4. Ajouter `auto_grass_battler.zip` comme fichier telechargeable.
-5. Indiquer dans la release la version du mod, par exemple `v3.0.2`.
-
-## Licence
-
-Ajoutez une licence avant publication publique si vous voulez que d'autres personnes puissent reutiliser ou modifier le mod clairement.
-
-Exemples possibles :
-
-| Licence | Quand l'utiliser |
-| --- | --- |
-| MIT | Simple, permissive, facile pour les petits projets open source. |
-| GPL-3.0 | Les modifications publiques doivent rester open source. |
-| Tous droits reserves | Si vous ne voulez pas autoriser la reutilisation sans votre accord. |
